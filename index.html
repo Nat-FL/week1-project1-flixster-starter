@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Flixster Project</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="header">Flixster 🍿</h1>
+        <!--Search form-->
+        <form id="movieSearch">
+            <label class="searchDesign" for="search">Search:</label>
+            <input type="text" id="searchInfo" name="search" placeholder="search movie" required>
+           <input type="submit" id="submitBtn">
+          <button id="clearBtn">Clear Search</button>
+        </form>
+
+    <!--Div container of movie sets-->
+    <div class="movieContainer">   
+
+            <div id="load-more"></div> 
+
+    </div>
+        
+    <div id="movieBtn">
+        <!--Load more movies button-->
+        <button id="load-more-movies-btn">More Movies</button>
+    </div>
+    
+        <script src="script.js"></script>
+    </body>
+</html>

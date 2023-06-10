@@ -1,0 +1,58 @@
+
+*{
+    background-color: black;
+    color: white;
+}
+#header{
+    text-align: center;
+    font-size: 48px;
+}
+
+#movieSearch{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#clearBtn{
+    background-color: red;
+    font-size: 16px;
+}
+
+#submitBtn{
+    background-color: red;
+    font-size: 16px;
+}
+
+#movieBtn{
+    text-align: center;
+}
+
+.searchDesign{
+    font-size: 22px;
+}
+
+#searchInfo{
+    font-size: 16px; 
+}
+
+#load-more{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-content: center;
+   justify-content: space-around; 
+    text-align: center;
+}
+
+#load-more-movies-btn{
+    text-align: center;
+    background-color: red;
+    font-size: 16px;
+}
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+
+
+
