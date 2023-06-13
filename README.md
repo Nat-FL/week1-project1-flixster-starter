@@ -40,8 +40,11 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 Regular link if embedded link doesn't work: https://www.loom.com/share/c6f1a917aa874e08aa5985cc3f5d1389
-<video>
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c6f1a917aa874e08aa5985cc3f5d1389" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<a href="https://www.loom.com/share/c6f1a917aa874e08aa5985cc3f5d1389">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c6f1a917aa874e08aa5985cc3f5d1389-with-play.gif">
+  </a>
+  
 
 ### Reflection
 
