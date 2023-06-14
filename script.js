@@ -52,25 +52,26 @@ const newApiCall = async (url) => {
 //creating movie displays/cards
 const movieCard = (moviesList) => {
 
+    let movieCard = document.createElement('div')
+    movieCard.classList.add('movieCardContainer')
+
     //movie title
-    let newMovieTitle = document.createElement('div')
+    let newMovieTitle = document.createElement('h2')
     newMovieTitle.classList.add('movieTitle')
     let movieName = moviesList.title
     newMovieTitle.innerHTML = movieName
-    movieList.appendChild(newMovieTitle)
-
+    movieCard.appendChild(newMovieTitle)
+   
 
     // create movie image element
     let image = document.createElement('img');
     image.classList.add('movie-poster');
     image.src = 'https://image.tmdb.org/t/p/w342' + moviesList.poster_path;
-    movieList.appendChild(image)
+    movieCard.appendChild(image)
 
     
     //Rating
-
     let newRating = document.createElement('p')
-
 
     let star = document.createElement('p')
     let starContent = document.createTextNode('⭐️')
@@ -84,17 +85,12 @@ const movieCard = (moviesList) => {
     starContainer.appendChild(star)
     starContainer.appendChild(newRating)
 
-    
-  //  newRating.classList.add('newRating')
-  //  let ratingInfo = moviesList.vote_average
-   // newRating.innerHTML = ratingInfo
-
-    movieList.appendChild(star)
-    movieList.appendChild(newRating)
-    movieList.appendChild(starContainer)
+    movieCard.appendChild(star)
+    movieCard.appendChild(newRating)
+    movieCard.appendChild(starContainer)
 
 
-   movieContainer.appendChild(movieList) 
+   movieList.appendChild(movieCard) 
     return movieList
     }
 
