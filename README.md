@@ -10,7 +10,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### Core Features
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view
+- [X] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
   - Each movie wrapper element should have a class of `movie-card`
 - [X] For each movie displayed, user can see the following details:
@@ -39,9 +39,9 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
-Regular link if embedded link doesn't work: https://www.loom.com/share/c6f1a917aa874e08aa5985cc3f5d1389
-<video>
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c6f1a917aa874e08aa5985cc3f5d1389" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<a href="https://www.loom.com/share/8aa6e6b600024c71ae1b8f47e3929e3a">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/8aa6e6b600024c71ae1b8f47e3929e3a-with-play.gif">
+  </a>
 
 ### Reflection
 
